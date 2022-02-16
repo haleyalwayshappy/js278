@@ -16,7 +16,8 @@ let currentDate = new Date();
 let myFunction = () => console.log('함수 확인');
 // let 으로 선언한 변수는 값 변경이 가능하다. 대입한 변수의 값을 변경하는 샘플
 let thisName = '펭귄';
-console.log(thisName); // --> 펭귄이라는 값 출력
+console.log(thisName);
+ // --> 펭귄이라는 값 출력
 
 thisName = '하마';
 console.log(thisName); // --> 하마라는값으로 변경되어 출력 
@@ -26,4 +27,4 @@ let value;
 // 한꺼번에 변수를 선언할 수 있다
 let d = 1,
     e = 2,
-    f; // 한번에 선언 + 초기화 생략한것
+    f; // 한번에 선언 + 초기화 생략한것\
